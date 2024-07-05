@@ -2,14 +2,7 @@
   "name": "Playback Speed Control",
   "version": "0.1.0",
   "description": "change Playback speed of popular streaming platforms. currently supports netflix,prime video,hotstar,sunNxt",
-  "permissions": [
-    "storage",
-    "tabs",
-    "activeTab",
-    "scripting",
-    "http://*/*",
-    "https://*/*"
-  ],
+  "permissions": ["storage", "tabs", "activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   },
