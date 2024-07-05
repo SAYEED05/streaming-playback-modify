@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+        width: 300px;
+        height: 150px;
+      }
+      h3 {
+        text-align: center;
+      }
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Streaming Services Playback Tweek</h3>
+    <main>
+      <form id="time-form">
+        <label for="fwd_seek">Enter Forward Seek Time (in seconds)</label><br />
+        <input type="number" name="Forward Seek Time" id="fwd_seek" />
+        <br />
+        <label for="bwd_seek">Enter Forward Seek Time (in seconds)</label>
+        <input type="number" name="Backward Seek Time" id="bwd_seek" />
+        <br />
+        <button type="submit">Save</button>
+      </form>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
